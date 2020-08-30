@@ -11,6 +11,13 @@ import java.util.Arrays;
 public class Library {
     private Book[] booksThatAreCurrentlyAvailabe;
 
+    public Library() {
+        this.booksThatAreCurrentlyAvailabe = new Book[8];
+        for (int i = 0; i < booksThatAreCurrentlyAvailabe.length; i++) {
+            booksThatAreCurrentlyAvailabe[i] = new Book("Book" + (i + 1));
+        }
+    }
+
     public Book[] getBooksThatAreCurrentlyAvailabe() {
         return booksThatAreCurrentlyAvailabe;
     }

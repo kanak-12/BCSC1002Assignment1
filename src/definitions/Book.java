@@ -13,7 +13,7 @@ public class Book {
     private String authorOfBook;
     private String isbnNumber;
 
-    public Book() {
+    public Book(String s) {
         nameOfBook = "Advanced Engineering Mathematics";
         authorOfBook = "H.K.Dass";
         isbnNumber = "9876543211234";
