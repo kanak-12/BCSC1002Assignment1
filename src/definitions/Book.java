@@ -40,4 +40,13 @@ public class Book {
     public void setIsbnNumber(String isbnNumber) {
         this.isbnNumber = isbnNumber;
     }
+
+    //The toString() method.
+    public String toString() {
+        return "Book{" +
+                "nameOfBook='" + nameOfBook + '\'' +
+                ", authorOfBook='" + authorOfBook + '\'' +
+                ", isbnNumber='" + isbnNumber + '\'' +
+                '}';
+    }
 }
