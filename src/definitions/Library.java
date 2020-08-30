@@ -58,5 +58,14 @@ public class Library {
     public void issueBook(String bookName) {
         System.out.println(bookName + "is issued to you.");
     }
+
+    /**
+     * This method helps us to return the book.
+     *
+     * @param bookName Name of the book to be returned from the student.
+     */
+    public void returnBook(String bookName) {
+        System.out.println("Thanks for returning" + bookName + ".");
+    }
 }
 
