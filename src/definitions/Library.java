@@ -18,6 +18,10 @@ public class Library {
         }
     }
 
+    public Library(Book[] booksThatAreCurrentlyAvailabe) {
+        this.booksThatAreCurrentlyAvailabe = booksThatAreCurrentlyAvailabe;
+    }
+
     public Book[] getBooksThatAreCurrentlyAvailabe() {
         return booksThatAreCurrentlyAvailabe;
     }
