@@ -6,6 +6,8 @@
  * */
 package execution;
 
+import java.util.Scanner;
+
 public class FrontDesk {
     private static final int ISSUE_BOOK = 1;
     private static final int RETURN_BOOK = 2;
@@ -13,6 +15,6 @@ public class FrontDesk {
     private static final int EXIT = 4;
 
     public static void main(String[] args) {
-
+        Scanner scannerObject = new Scanner(System.in);
     }
 }
