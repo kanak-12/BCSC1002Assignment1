@@ -49,5 +49,14 @@ public class Library {
     public int hashCode() {
         return Arrays.hashCode(getBooksThatAreCurrentlyAvailabe());
     }
+
+    /**
+     * This method helps us to issue a book.
+     *
+     * @param bookName The name of the book to be issued.
+     */
+    public void issueBook(String bookName) {
+        System.out.println(bookName + "is issued to you.");
+    }
 }
 
