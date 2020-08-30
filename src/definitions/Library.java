@@ -67,5 +67,14 @@ public class Library {
     public void returnBook(String bookName) {
         System.out.println("Thanks for returning" + bookName + ".");
     }
+
+    /**
+     * This method helps us to show the list of all the books issued by the student from the library.2
+     */
+    public void showAllIssuedBooks() {
+        for (Book book : booksThatAreCurrentlyAvailabe) {
+            System.out.println(book);
+        }
+    }
 }
 
