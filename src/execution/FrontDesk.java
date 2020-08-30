@@ -38,7 +38,7 @@ public class FrontDesk {
                     libraryObject.issueBook(bookName);
                     break;
                 case RETURN_BOOK:
-                    System.out.println("Enter the nem of the book which you want to return:");
+                    System.out.println("Enter the name of the book which you want to return:");
                     scannerObject.nextLine();
                     bookName = scannerObject.nextLine();
                     libraryObject.returnBook(bookName);
