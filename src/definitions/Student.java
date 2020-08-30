@@ -14,6 +14,14 @@ public class Student {
     private int numberOfBooksIssuedByStudent;
     private Book[] namesOfBookIssuedByStudent;
 
+    public Student() {
+        firstNameOfStudent = "Abhishek";
+        middleNameOfStudent = "Pratap";
+        lastNameOfStudent = "Singh";
+        universityRollNumberOfStudent = 191500334;
+        numberOfBooksIssuedByStudent = 13;
+    }
+
     public int getNumberOfBooksIssuedByStudent() {
         return numberOfBooksIssuedByStudent;
     }
@@ -61,4 +69,5 @@ public class Student {
     public void setNamesOfBookIssuedByStudent(Book[] namesOfBookIssuedByStudent) {
         this.namesOfBookIssuedByStudent = namesOfBookIssuedByStudent;
     }
+
 }
