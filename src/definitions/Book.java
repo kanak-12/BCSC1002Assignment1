@@ -11,6 +11,12 @@ public class Book {
     private String authorOfBook;
     private String isbnNumber;
 
+    public Book() {
+        nameOfBook = "Advanced Engineering Mathematics";
+        authorOfBook = "H.K.Dass";
+        isbnNumber = "9876543211234";
+    }
+
     public String getAuthorOfBook() {
         return authorOfBook;
     }
@@ -34,5 +40,4 @@ public class Book {
     public void setIsbnNumber(String isbnNumber) {
         this.isbnNumber = isbnNumber;
     }
-
 }
